@@ -87,7 +87,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoundCmdLineDriver", "Cloud
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "HoundRG", "Cloud\Azure\HoundRG\HoundRG.deployproj", "{86F23E21-6AED-4E7F-88BD-18546AF198FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTownBluesAdmin", "HTownBluesAdmin\HTownBluesAdmin.csproj", "{3E77F499-57D6-43E9-B0F9-95D271F42741}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTownBluesAdmin", "Clients\Web\HTownBluesAdmin\HTownBluesAdmin.csproj", "{3E77F499-57D6-43E9-B0F9-95D271F42741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -39,7 +39,7 @@ namespace ContentLib
         {
       
 
-            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Data\\Events.html");
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Cloud\\Classes\\Data\\Events.html");
             WebStiteGrabber wg = new WebStiteGrabber(iturl);
             string str = await wg.GrabAsync();
 
@@ -52,7 +52,7 @@ namespace ContentLib
         {
             //Arrange 
 
-            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Data\\Venues.html");
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Cloud\\Classes\\Data\\Venues.html");
             WebStiteGrabber wg = new WebStiteGrabber(iturl);
             string str = await wg.GrabAsync();
 

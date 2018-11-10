@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Classes\ContentLib\ContentLib.csproj" />
     <ProjectReference Include="..\..\Classes\DataStructLibs\DataStructLib.csproj" />
+    <ProjectReference Include="..\..\Classes\ParserLib\ParserLib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

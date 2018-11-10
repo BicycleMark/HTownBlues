@@ -56,10 +56,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ParseLib", "ParseLib", "{09C37844-B747-49A5-A71F-1BF65DCF1561}"
 	ProjectSection(SolutionItems) = preProject
 		Cloud\Classes\ParserLib\Constants.cs = Cloud\Classes\ParserLib\Constants.cs
-		Cloud\Classes\ParserLib\DocParserFactory.cs = Cloud\Classes\ParserLib\DocParserFactory.cs
-		Cloud\Classes\ParserLib\Parser.cs = Cloud\Classes\ParserLib\Parser.cs
 		Cloud\Classes\ParserLib\ParserLib.csproj = Cloud\Classes\ParserLib\ParserLib.csproj
-		Cloud\Classes\ParserLib\ParserLib.csproj.user = Cloud\Classes\ParserLib\ParserLib.csproj.user
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HtmlItems", "HtmlItems", "{F9205ED7-953F-4A8B-A774-BD0AACB1259C}"
@@ -67,13 +64,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HtmlItems", "HtmlItems", "{
 		Cloud\Classes\ContentLib\HtmlItems\HtmlItem.cs = Cloud\Classes\ContentLib\HtmlItems\HtmlItem.cs
 		Cloud\Classes\ContentLib\HtmlItems\ItemFromFile.cs = Cloud\Classes\ContentLib\HtmlItems\ItemFromFile.cs
 		Cloud\Classes\ContentLib\HtmlItems\ItemFromUrl.cs = Cloud\Classes\ContentLib\HtmlItems\ItemFromUrl.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocParsers", "DocParsers", "{6C49ACC0-60E2-4F16-853B-D70925AC0EBB}"
-	ProjectSection(SolutionItems) = preProject
-		Cloud\Classes\ParserLib\DocParsers\AbstractDocParser.cs = Cloud\Classes\ParserLib\DocParsers\AbstractDocParser.cs
-		Cloud\Classes\ParserLib\DocParsers\BluesHoundCalendar.cs = Cloud\Classes\ParserLib\DocParsers\BluesHoundCalendar.cs
-		Cloud\Classes\ParserLib\DocParsers\BluesHoundVenue.cs = Cloud\Classes\ParserLib\DocParsers\BluesHoundVenue.cs
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentLib", "Cloud\Classes\ContentLib\ContentLib.csproj", "{F3041B3C-A2A6-4864-AF02-B47E9FD656FE}"
@@ -147,7 +137,6 @@ Global
 		{F0AE4C65-E141-4CEE-AAEF-3B7568EDEF9E} = {440E89C3-41AC-4017-A636-3DD67F944592}
 		{09C37844-B747-49A5-A71F-1BF65DCF1561} = {440E89C3-41AC-4017-A636-3DD67F944592}
 		{F9205ED7-953F-4A8B-A774-BD0AACB1259C} = {8973580A-4527-493C-BAF3-77CC12C83BD1}
-		{6C49ACC0-60E2-4F16-853B-D70925AC0EBB} = {09C37844-B747-49A5-A71F-1BF65DCF1561}
 		{F3041B3C-A2A6-4864-AF02-B47E9FD656FE} = {8973580A-4527-493C-BAF3-77CC12C83BD1}
 		{95A9F799-33D5-468B-9747-1D2180742B71} = {24E20E06-1088-467E-BE00-1BB3AA5DC49B}
 		{F338CF44-E7D8-446B-A2A6-C47BCACB5526} = {09C37844-B747-49A5-A71F-1BF65DCF1561}

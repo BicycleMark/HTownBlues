@@ -7,6 +7,7 @@ namespace DataStructLib
 {
     public class EventDBContext : DbContext
     {
+        private string connectionString = "Server=(localdb)\\mssqllocaldb;database=HoundDB;Trusted_Connection=True;MultipleActiveResultSets=true";
         public DbSet<Event> Events { get; set; }
 
         public DbSet<Venue> Venues { get; set; }
@@ -15,10 +16,17 @@ namespace DataStructLib
         {
 
         }
+        public EventDBContext(string connString)
+        {
+            if (!string.IsNullOrEmpty(connString))
+                connectionString = connString;
+
+
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;database=HoundDB;Trusted_Connection=True;MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer(connectionString);
         }
         protected  override void OnModelCreating(ModelBuilder mb)
         {

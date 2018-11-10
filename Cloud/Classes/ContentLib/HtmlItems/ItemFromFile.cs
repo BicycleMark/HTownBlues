@@ -18,6 +18,7 @@ namespace ContentLib
         public override async Task<int> GrabAsync()
         {
             string html =  await ReadTextAsync(fileName);
+            this.Html = html;
             return html.Length;
         }
         private async Task<string> ReadTextAsync(string filePath)

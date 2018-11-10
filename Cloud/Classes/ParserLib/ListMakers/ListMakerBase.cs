@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using HtmlAgilityPack;
-using ParserLib.DocParsers;
+
 
 namespace ParserLib.ListMakers
 {
@@ -15,6 +15,7 @@ namespace ParserLib.ListMakers
             Html = html;
             doc = new HtmlDocument();
             doc.LoadHtml(html);
+            
         }
         
 

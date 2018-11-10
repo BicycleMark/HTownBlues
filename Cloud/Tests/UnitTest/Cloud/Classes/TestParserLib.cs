@@ -17,7 +17,8 @@ namespace ParserLib
             HtmlItem html = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, "https://theblueshound.com/venue-listing");
             int i = await html.GrabAsync();
             var lm = new VenueListMaker(html.Html);
-            Assert.AreNotEqual(lm, null);
+            var vl = lm.ToXml();
+            Assert.AreNotEqual(vl, null);
         }
 
         [TestMethod]
@@ -26,7 +27,9 @@ namespace ParserLib
             HtmlItem html = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, "https://theblueshound.com/music-calendar");
             int i = await html.GrabAsync();
             var lm = new EventListMaker(html.Html);
-            Assert.AreNotEqual(lm, null);
+            var le = lm.ToXml();
+            Assert.AreNotEqual(le, null);
+            
         }
 
         [TestMethod]
@@ -36,9 +39,9 @@ namespace ParserLib
             HtmlItem html = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Cloud\\Classes\\Data\\Venues.html");
             int i = await html.GrabAsync();
             var lm = new VenueListMaker(html.Html);
-           
+            var vl = lm.ToXml();
 
-            Assert.AreNotEqual(lm,null);
+            Assert.AreNotEqual(vl,null);
         }
 
         [TestMethod]
@@ -47,7 +50,8 @@ namespace ParserLib
             HtmlItem html = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Cloud\\Classes\\Data\\Events.html");
             int i = await html.GrabAsync();
             var lm = new EventListMaker(html.Html);
-            Assert.AreNotEqual(lm, null);
+            var le = lm.ToXml();
+            Assert.AreNotEqual(le, null);
         }
 
 

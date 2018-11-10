@@ -7,7 +7,10 @@ namespace ParserLib.DocParsers
     public class  BluesHoundCalendar : AbstractDocParser
     {
 
-      
+        public BluesHoundCalendar(string html):base(html)
+        {
+            
+        }
 
         public override void Parse(string html)
         {

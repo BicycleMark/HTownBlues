@@ -6,13 +6,15 @@ namespace ParserLib
 {
     public abstract class AbstractDocParser 
     {
-        public AbstractDocParser()
+        protected string html = string.Empty;
+        public  AbstractDocParser(string doc = "")
         {
+            html = doc;
             
 
         }
 
-        public abstract void Parse(string html);
+        public abstract void Parse(string html = "");
        
        
     }

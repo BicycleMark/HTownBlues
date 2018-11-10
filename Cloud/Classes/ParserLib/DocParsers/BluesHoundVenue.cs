@@ -6,6 +6,10 @@ namespace ParserLib.DocParsers
 {
     public class BluesHoundVenue : AbstractDocParser
     {
+        public BluesHoundVenue(string html):base(html)
+        {
+
+        }
         public override void Parse(string html)
         {
             throw new NotImplementedException();

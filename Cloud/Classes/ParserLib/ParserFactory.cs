@@ -6,9 +6,9 @@ using ParserLib.DocParsers;
 
 namespace ParserLib
 {
-    public class DocParserFactory
+    public class ParserFactory
     {
-        public static AbstractDocParser GetParser(Constants.Site        site, 
+        public static IParser GetParser(Constants.Site                  site, 
                                                   Constants.SiteType    siteType,
                                                   string                html)
         {
@@ -21,9 +21,9 @@ namespace ParserLib
                         switch(siteType)
                         {
                             case Constants.SiteType.CALENDAR:
-                                return new BluesHoundCalendar(html);
+                                return new HTownBluesHoundEvents(html);
                             case Constants.SiteType.VENUE:
-                                return new BluesHoundVenue(html);
+                                return new HTownBluesHoundVenues(html);
                             default:
                                 throw new Exception($"For {site} [{siteType}] is unsupported");
                         }

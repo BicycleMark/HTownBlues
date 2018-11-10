@@ -1,95 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="0.5" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@1 @3 @10 Member=.ctor)" Category="CodeSchema_Method" Bounds="-238.579389908833,37.49614387729,114.613333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="TestContentLib">
+    <Node Id="(@1 @4 @11 Member=.ctor)" Category="CodeSchema_Method" Bounds="-301.182046986516,51.3531374652194,114.613333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="TestContentLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @3 @10 Member=TestEventGrabberFromFile)" Category="CodeSchema_Method" Bounds="-93.9660526670984,37.49614387729,173.923333333333,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestEventGrabberFromFile">
+    <Node Id="(@1 @4 @11 Member=TestEventGrabberFromFile)" Category="CodeSchema_Method" Bounds="-156.580714100036,51.4437540848483,173.923333333333,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestEventGrabberFromFile">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @3 @10 Member=TestEventGrabberFromWeb)" Category="CodeSchema_Method" Bounds="-238.579389748641,149.416138652701,180.043333333333,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestEventGrabberFromWeb">
+    <Node Id="(@1 @4 @11 Member=TestEventGrabberFromWeb)" Category="CodeSchema_Method" Bounds="-301.212075829953,163.372062756567,180.043333333333,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestEventGrabberFromWeb">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @3 @10 Member=TestVenueGrabberFromFile)" Category="CodeSchema_Method" Bounds="-238.579408466089,93.4561431684376,177.796666666667,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestVenueGrabberFromFile">
+    <Node Id="(@1 @4 @11 Member=TestVenueGrabberFromFile)" Category="CodeSchema_Method" Bounds="-301.212071664022,107.412071176445,177.796666666667,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestVenueGrabberFromFile">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @3 @10 Member=TestVenueGrabberFromWeb)" Category="CodeSchema_Method" Bounds="-238.579372791773,205.376153171387,183.916666666667,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestVenueGrabberFromWeb">
+    <Node Id="(@1 @4 @11 Member=TestVenueGrabberFromWeb)" Category="CodeSchema_Method" Bounds="-301.212089343827,219.332061957294,183.916666666667,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestVenueGrabberFromWeb">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @5 @12 Member=.ctor)" Category="CodeSchema_Method" Bounds="189.956473035063,64.140873569592,127.483333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="TestDataStructLib">
+    <Node Id="(@1 @6 @13 Member=.ctor)" Category="CodeSchema_Method" Bounds="394.307084193719,66.3753970455144,127.483333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="TestDataStructLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @5 @12 Member=CreateEventDBContext)" Category="CodeSchema_Method" Bounds="189.956473035063,120.099082849592,155.74,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="CreateEventDBContext">
+    <Node Id="(@1 @6 @13 Member=CreateEventDBContext)" Category="CodeSchema_Method" Bounds="394.307084193719,122.335397074314,155.74,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="CreateEventDBContext">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @5 @12 Member=RemoveEventDBContext)" Category="CodeSchema_Method" Bounds="189.956473035063,176.057292129592,163.903333333333,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="RemoveEventDBContext">
+    <Node Id="(@1 @6 @13 Member=RemoveEventDBContext)" Category="CodeSchema_Method" Bounds="394.307084193719,178.295397103114,163.903333333333,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="RemoveEventDBContext">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @7 @14 Member=.ctor)" Category="CodeSchema_Method" Bounds="-36.7516666666665,493.178996654778,157.08,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="TestParserControllerLib">
+    <Node Id="(@1 @8 @15 Member=.ctor)" Category="CodeSchema_Method" Bounds="127.238718623339,178.386714833452,157.08,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="TestParserControllerLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @7 @14 Member=TestParseEventsWeb)" Category="CodeSchema_Method" Bounds="-36.7772666666665,381.221289590376,142.626666666667,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestParseEventsWeb">
+    <Node Id="(@1 @8 @15 Member=TestParseEventsWeb)" Category="CodeSchema_Method" Bounds="127.238711250539,66.4667039450176,142.626666666667,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestParseEventsWeb">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 @7 @14 Member=TestParseVenuesWeb)" Category="CodeSchema_Method" Bounds="-36.7516666666665,437.218996654778,146.5,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestParseVenuesWeb">
+    <Node Id="(@1 @8 @15 Member=TestParseVenuesWeb)" Category="CodeSchema_Method" Bounds="127.238718623339,122.426714804652,146.5,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="TestParseVenuesWeb">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 Namespace=::)" Category="CodeSchema_Namespace" Bounds="-53.1133833333333,-97.5376940013598,62.2,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="::">
+    <Node Id="(@1 Namespace=ParserLib Type=TestParserLib)" Category="CodeSchema_Class" Bounds="-362.528156123751,370.215712807967,129.296666666667,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="TestParserLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="(@1 Namespace=ParserLib Type=TestParserLib)" Category="CodeSchema_Class" Bounds="59.0867166666666,-117.506892966189,129.296666666667,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="TestParserLib">
+    <Node Id="(@1 Type=AutoGeneratedProgram)" Category="CodeSchema_Class" Bounds="-163.254429572284,355.162523508658,187.5,25" CodeSchemaProperty_IsInternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="AutoGeneratedProgram" />
+    <Node Id="@10" Category="CodeSchema_Namespace" Bounds="-382.528156123751,330.216040885561,169.296666666667,85.0002" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="ParserLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="@11" Category="CodeSchema_Class" Bounds="-258.579606406701,-2.53749138742594,358.536681518555,253.8405" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="5" Group="Expanded" Label="TestContentLib" UseManualLocation="True">
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="-321.294274995407,11.3216309727217,358.554729385376,253.939447698975" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="5" Group="Expanded" Label="TestContentLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="@13" Category="CodeSchema_Class" Bounds="169.957113035063,24.142153569592,203.901687893333,197.87446784" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" Group="Expanded" Label="TestDataStructLib" UseManualLocation="True">
+    <Node Id="@14" Category="CodeSchema_Class" Bounds="374.307084193719,26.3753970167144,203.903333333333,197.8800001152" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" Group="Expanded" Label="TestDataStructLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="@15" Category="CodeSchema_Class" Bounds="-56.7516666666665,341.258996654778,197.08,197.88" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" Group="Expanded" Label="TestParserControllerLib" UseManualLocation="True">
+    <Node Id="@16" Category="CodeSchema_Class" Bounds="107.238711250539,26.4667039162176,197.0800073728,197.880010946035" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" Group="Expanded" Label="TestParserControllerLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="-298.579606811069,-197.582103345222,712.438407739465,776.7211" CodeSchemaProperty_StrongName="UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="5" FilePath="$(fcedcbcb-414e-4498-9f93-398e76b3b724.OutputPath)" Group="Expanded" Label="UnitTest.dll" UseManualLocation="True">
+    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="-402.575762581351,-68.6785690272785,1020.81958255156,503.894480963017" CodeSchemaProperty_StrongName="UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="5" FilePath="$(fcedcbcb-414e-4498-9f93-398e76b3b724.OutputPath)" Group="Expanded" Label="UnitTest.dll">
       <Category Ref="CodeMap_TestAsset" />
       <Category Ref="CodeMap_TestProject" />
       <Category Ref="FileSystem.Category.FileOfType.dll" />
     </Node>
-    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="-278.579606406701,-42.537591387426,398.536681518555,313.8407" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="ContentLib" UseManualLocation="True">
+    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="-183.278995914684,315.191294622886,227.5,85" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="::" UseManualLocation="True">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="@6" Category="CodeSchema_Namespace" Bounds="149.957113035063,-15.857846433608,243.901687893333,257.8744678464" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="DataStructLib" UseManualLocation="True">
+    <Node Id="@5" Category="CodeSchema_Namespace" Bounds="-341.294274995407,-28.6784690272783,398.554729385376,313.939647698975" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="ContentLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="@8" Category="CodeSchema_Namespace" Bounds="-76.7516666666665,301.258996654778,237.08,257.88" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="ParserControllerLib" UseManualLocation="True">
+    <Node Id="@7" Category="CodeSchema_Namespace" Bounds="354.307084193719,-13.6246030120856,243.903333333333,257.8800001728" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="DataStructLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="@9" Category="CodeSchema_Namespace" Bounds="39.0867166666667,-157.537891387426,169.296666666667,85.0002" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="ParserLib" UseManualLocation="True">
+    <Node Id="@9" Category="CodeSchema_Namespace" Bounds="87.2387112505386,-13.5332961125824,237.0800073728,257.880011003635" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="ParserControllerLib">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="Cloud{CCBD042D-DB9E-45B1-AC69-501498752084}" Category="CodeMap_SolutionFolder" Bounds="-338.579606811069,-277.582103345222,792.438407739465,896.7211" Group="Expanded" Label="Cloud" />
-    <Node Id="Tests{85974E03-87D2-4B15-81E3-2D9E73EF07ED}" Category="CodeMap_SolutionFolder" Bounds="-318.579606811069,-237.582103345222,752.438407739465,836.7211" Group="Expanded" Label="Tests" />
+    <Node Id="Cloud{CCBD042D-DB9E-45B1-AC69-501498752084}" Category="CodeMap_SolutionFolder" Bounds="-442.575762581351,-148.678769027278,1100.81958255156,623.894880963017" Group="Expanded" Label="Cloud" />
+    <Node Id="Tests{85974E03-87D2-4B15-81E3-2D9E73EF07ED}" Category="CodeMap_SolutionFolder" Bounds="-422.575762581351,-108.678669027278,1060.81958255156,563.894680963017" Group="Expanded" Label="Tests" />
   </Nodes>
   <Links>
-    <Link Source="@11" Target="(@1 @3 @10 Member=.ctor)" Category="Contains" FetchingParent="@11" />
-    <Link Source="@11" Target="(@1 @3 @10 Member=TestEventGrabberFromFile)" Category="Contains" FetchingParent="@11" />
-    <Link Source="@11" Target="(@1 @3 @10 Member=TestEventGrabberFromWeb)" Category="Contains" FetchingParent="@11" />
-    <Link Source="@11" Target="(@1 @3 @10 Member=TestVenueGrabberFromFile)" Category="Contains" FetchingParent="@11" />
-    <Link Source="@11" Target="(@1 @3 @10 Member=TestVenueGrabberFromWeb)" Category="Contains" FetchingParent="@11" />
-    <Link Source="@13" Target="(@1 @5 @12 Member=.ctor)" Category="Contains" FetchingParent="@13" />
-    <Link Source="@13" Target="(@1 @5 @12 Member=CreateEventDBContext)" Category="Contains" FetchingParent="@13" />
-    <Link Source="@13" Target="(@1 @5 @12 Member=RemoveEventDBContext)" Category="Contains" FetchingParent="@13" />
-    <Link Source="@15" Target="(@1 @7 @14 Member=.ctor)" Category="Contains" FetchingParent="@15" />
-    <Link Source="@15" Target="(@1 @7 @14 Member=TestParseEventsWeb)" Category="Contains" FetchingParent="@15" />
-    <Link Source="@15" Target="(@1 @7 @14 Member=TestParseVenuesWeb)" Category="Contains" FetchingParent="@15" />
-    <Link Source="@2" Target="(@1 Namespace=::)" Category="Contains" FetchingParent="@2" />
-    <Link Source="@2" Target="@4" Category="Contains" FetchingParent="@2" />
-    <Link Source="@2" Target="@6" Category="Contains" FetchingParent="@2" />
-    <Link Source="@2" Target="@8" Category="Contains" FetchingParent="@2" />
+    <Link Source="@10" Target="(@1 Namespace=ParserLib Type=TestParserLib)" Category="Contains" FetchingParent="@10" />
+    <Link Source="@12" Target="(@1 @4 @11 Member=.ctor)" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@1 @4 @11 Member=TestEventGrabberFromFile)" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@1 @4 @11 Member=TestEventGrabberFromWeb)" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@1 @4 @11 Member=TestVenueGrabberFromFile)" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@1 @4 @11 Member=TestVenueGrabberFromWeb)" Category="Contains" FetchingParent="@12" />
+    <Link Source="@14" Target="(@1 @6 @13 Member=.ctor)" Category="Contains" FetchingParent="@14" />
+    <Link Source="@14" Target="(@1 @6 @13 Member=CreateEventDBContext)" Category="Contains" FetchingParent="@14" />
+    <Link Source="@14" Target="(@1 @6 @13 Member=RemoveEventDBContext)" Category="Contains" FetchingParent="@14" />
+    <Link Source="@16" Target="(@1 @8 @15 Member=.ctor)" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="(@1 @8 @15 Member=TestParseEventsWeb)" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="(@1 @8 @15 Member=TestParseVenuesWeb)" Category="Contains" FetchingParent="@16" />
+    <Link Source="@2" Target="@10" Category="Contains" FetchingParent="@2" />
+    <Link Source="@2" Target="@3" Category="Contains" FetchingParent="@2" />
+    <Link Source="@2" Target="@5" Category="Contains" FetchingParent="@2" />
+    <Link Source="@2" Target="@7" Category="Contains" FetchingParent="@2" />
     <Link Source="@2" Target="@9" Category="Contains" FetchingParent="@2" />
-    <Link Source="@4" Target="@11" Category="Contains" FetchingParent="@4" />
-    <Link Source="@6" Target="@13" Category="Contains" FetchingParent="@6" />
-    <Link Source="@8" Target="@15" Category="Contains" FetchingParent="@8" />
-    <Link Source="@9" Target="(@1 Namespace=ParserLib Type=TestParserLib)" Category="Contains" FetchingParent="@9" />
+    <Link Source="@3" Target="(@1 Type=AutoGeneratedProgram)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@5" Target="@12" Category="Contains" FetchingParent="@5" />
+    <Link Source="@7" Target="@14" Category="Contains" FetchingParent="@7" />
+    <Link Source="@9" Target="@16" Category="Contains" FetchingParent="@9" />
     <Link Source="Cloud{CCBD042D-DB9E-45B1-AC69-501498752084}" Target="Tests{85974E03-87D2-4B15-81E3-2D9E73EF07ED}" Category="Contains" FetchingParent="Cloud{CCBD042D-DB9E-45B1-AC69-501498752084}" />
     <Link Source="Tests{85974E03-87D2-4B15-81E3-2D9E73EF07ED}" Target="@2" Category="Contains" FetchingParent="Tests{85974E03-87D2-4B15-81E3-2D9E73EF07ED}" />
   </Links>
@@ -112,6 +114,7 @@
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsSpecialName" Label="Is Special Name" Description="Flag to indicate the method is treated in a special way by some compilers" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
@@ -125,7 +128,7 @@
     <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
     <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
-    <Property Id="Icon" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsContainment" DataType="System.Boolean" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
@@ -150,19 +153,20 @@
   <IdentifierAliases>
     <Alias n="1" Uri="Assembly=$(fcedcbcb-414e-4498-9f93-398e76b3b724.OutputPathUri)" />
     <Alias n="2" Id="(@1)" />
-    <Alias n="3" Id="Namespace=ContentLib" />
-    <Alias n="4" Id="(@1 @3)" />
-    <Alias n="5" Id="Namespace=DataStructLib" />
-    <Alias n="6" Id="(@1 @5)" />
-    <Alias n="7" Id="Namespace=ParserControllerLib" />
-    <Alias n="8" Id="(@1 @7)" />
-    <Alias n="9" Id="(@1 Namespace=ParserLib)" />
-    <Alias n="10" Id="Type=TestContentLib" />
-    <Alias n="11" Id="(@1 @3 @10)" />
-    <Alias n="12" Id="Type=TestDataStructLib" />
-    <Alias n="13" Id="(@1 @5 @12)" />
-    <Alias n="14" Id="Type=TestParserControllerLib" />
-    <Alias n="15" Id="(@1 @7 @14)" />
+    <Alias n="3" Id="(@1 Namespace=::)" />
+    <Alias n="4" Id="Namespace=ContentLib" />
+    <Alias n="5" Id="(@1 @4)" />
+    <Alias n="6" Id="Namespace=DataStructLib" />
+    <Alias n="7" Id="(@1 @6)" />
+    <Alias n="8" Id="Namespace=ParserControllerLib" />
+    <Alias n="9" Id="(@1 @8)" />
+    <Alias n="10" Id="(@1 Namespace=ParserLib)" />
+    <Alias n="11" Id="Type=TestContentLib" />
+    <Alias n="12" Id="(@1 @4 @11)" />
+    <Alias n="13" Id="Type=TestDataStructLib" />
+    <Alias n="14" Id="(@1 @6 @13)" />
+    <Alias n="15" Id="Type=TestParserControllerLib" />
+    <Alias n="16" Id="(@1 @8 @15)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">

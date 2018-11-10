@@ -16,7 +16,8 @@ namespace ParserControllerLib
         [TestMethod]
         public async Task TestParseVenuesWeb()
         {
-            HtmlItem html = HtmlItemFactory.GetHtmlItem(Constants.LocationType.WEB, "https://theblueshound.com/venue-listing");
+            HtmlItem html = HtmlItemFactory.GetHtmlItem(Constants.LocationType.WEB, 
+                                                        "https://theblueshound.com/venue-listing");
             int i = await html.GrabAsync();
             var lm = new VenueListMaker(html.Html);
             Assert.AreNotEqual(lm, null);
@@ -26,7 +27,8 @@ namespace ParserControllerLib
         [TestMethod]
         public async Task TestParseEventsWeb()
         {
-            HtmlItem html = HtmlItemFactory.GetHtmlItem(Constants.LocationType.WEB, "https://theblueshound.com/music-calendar");
+            HtmlItem html = HtmlItemFactory.GetHtmlItem(Constants.LocationType.WEB, 
+                                                        "https://theblueshound.com/music-calendar");
             int i = await html.GrabAsync();
             var lm = new EventListMaker(html.Html);
             Assert.AreNotEqual(lm, null);

@@ -15,7 +15,8 @@ namespace ContentLib
         public async Task TestEventGrabberFromWeb()
         {
             //Arrange 
-            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, "https://theblueshound.com/music-calendar");
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, 
+                                                        "https://theblueshound.com/music-calendar");
             WebStiteGrabber wg = new WebStiteGrabber(iturl);
             string str = await wg.GrabAsync();
 
@@ -26,7 +27,8 @@ namespace ContentLib
         public async Task TestVenueGrabberFromWeb()
         {
             //Arrange 
-            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, "https://theblueshound.com/venue-listing");
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, 
+                                                        "https://theblueshound.com/venue-listing");
             WebStiteGrabber wg = new WebStiteGrabber(iturl);
             string str = await wg.GrabAsync();
 
@@ -39,7 +41,8 @@ namespace ContentLib
         {
       
 
-            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Cloud\\Classes\\Data\\Events.html");
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, 
+                                                        @"Cloud\\Classes\\Data\\Events.html");
             WebStiteGrabber wg = new WebStiteGrabber(iturl);
             string str = await wg.GrabAsync();
 
@@ -52,7 +55,8 @@ namespace ContentLib
         {
             //Arrange 
 
-            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Cloud\\Classes\\Data\\Venues.html");
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, 
+                                                        @"Cloud\\Classes\\Data\\Venues.html");
             WebStiteGrabber wg = new WebStiteGrabber(iturl);
             string str = await wg.GrabAsync();
 

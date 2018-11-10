@@ -1,6 +1,7 @@
 using ContentLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ParserLib.DocParsers;
+using ParserLib.ListMakers;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -59,7 +60,8 @@ namespace ParserLib
         {
             HtmlItem html = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, "https://theblueshound.com/venue-listing");
             int i = await html.GrabAsync();
-            Assert.AreNotEqual(i, 0);
+            var lm = new VenueListMaker(html.Html);
+            Assert.AreNotEqual(lm, null);
         }
 
         [TestMethod]
@@ -67,7 +69,8 @@ namespace ParserLib
         {
             HtmlItem html = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, "https://theblueshound.com/music-calendar");
             int i = await html.GrabAsync();
-            Assert.AreNotEqual(i, 0);
+            var lm = new EventListMaker(html.Html);
+            Assert.AreNotEqual(lm, null);
         }
 
         [TestMethod]
@@ -76,12 +79,10 @@ namespace ParserLib
         {
             HtmlItem html = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Cloud\\Classes\\Data\\Venues.html");
             int i = await html.GrabAsync();
-            //var parser = ParserLib.ParserFactory.GetParser(ParserLib.Constants.Site.BluesHound,
-            //                                                    ParserLib.Constants.SiteType.VENUE,
-            //                                                    html.Html) as HTownBluesHoundVenues;
-            //List<Venue> lv = parser.Parse();
+            var lm = new VenueListMaker(html.Html);
+           
 
-            Assert.AreNotEqual(i, 0);
+            Assert.AreNotEqual(lm,null);
         }
 
         [TestMethod]
@@ -89,12 +90,8 @@ namespace ParserLib
         {
             HtmlItem html = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Cloud\\Classes\\Data\\Events.html");
             int i = await html.GrabAsync();
-            //var parser = ParserLib.ParserFactory.GetParser(ParserLib.Constants.Site.BluesHound,
-            //                                                    ParserLib.Constants.SiteType.CALENDAR,
-            //                                                    html.Html) as HTownBluesHoundEvents;
-            //List < BluesEvent > le = parser.Parse();
-
-            Assert.AreNotEqual(i, 0);
+            var lm = new EventListMaker(html.Html);
+            Assert.AreNotEqual(lm, null);
         }
 
 

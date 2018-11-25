@@ -136,5 +136,11 @@
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BluesHound\BluesHound.csproj">
+      <Project>{21A8CDD9-8568-4A4D-AC2E-01ABE7667D79}</Project>
+      <Name>BluesHound</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

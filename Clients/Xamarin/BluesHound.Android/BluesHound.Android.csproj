@@ -92,5 +92,11 @@
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BluesHound\BluesHound.csproj">
+      <Project>{21A8CDD9-8568-4A4D-AC2E-01ABE7667D79}</Project>
+      <Name>BluesHound</Name>
+    </ProjectReference>
+  </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

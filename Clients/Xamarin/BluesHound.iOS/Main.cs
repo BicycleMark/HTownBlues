@@ -5,6 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+
 namespace BluesHound.iOS
 {
     public class Application
